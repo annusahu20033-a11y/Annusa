@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tour Guide</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:georgia, sans-serif;
+}
+
+body{
+background:#fff;
+}
+
+header{
+background:#021b3a;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+}
+
+.logo{
+color:white;
+font-size:35px;
+font-family:cursive;
+font-weight:bold;
+font-family: georgia,sans-serif;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:40px;
+font-size:20px;
+font-weight:bold;
+font-family: georgia,sans-serif;
+}
+
+nav a:hover{
+color:gold;
+border-bottom:3px solid gold;
+padding-bottom:5px;
+}
+
+.hero{
+height:85vh;
+background:
+linear-gradient(rgba(0,0,0,0.3),
+rgba(0,0,0,0.3)),
+url("image.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+font-family: georgia,sans-serif
+}
+
+.hero h1{
+font-size:90px;
+font-family:cursive;
+text-shadow:3px 3px 10px black;
+}
+
+.hero p{
+font-size:28px;
+margin-top:10px;
+}
+
+.btn{
+margin-top:30px;
+background:#f4b400;
+color:black;
+padding:15px 40px;
+text-decoration:none;
+font-size:24px;
+font-weight:bold;
+border-radius:15px;
+}
+
+.btn:hover{
+background:orange;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="logo">Tour Guide ✈️</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="places.html">Places</a>
+<a href="gallery.html">Gallery</a>
+<a href="map.html">Map</a>
+<a href="contect.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Explore The World</h1>
+
+<p>Find the best tourist places around the world</p>
+
+<a href="places.html" class="btn">
+Explore Now →
+</a>
+
+</section>
+
+</body>
+</html>
